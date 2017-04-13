@@ -174,12 +174,12 @@
 }
 /*大图滚动*/
 .up-img{
-	height:650px;
-	min-width: 1150px;
-	background:url(../img/bjim.jpg) no-repeat center center;
-	position:relative;
-	z-index:1;
-	margin-bottom:50px;
+	height: 650px;
+    min-width: 1150px;
+    background: url(../img/bjim.jpg) no-repeat center center;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 50px;
 	/*background-color: #000;
 	opacity: 0.5;*/
 }
@@ -663,8 +663,12 @@
 .part6 a{
 	display: inline-block;
 	position: absolute;
-	top:215px;
-	left: 833px;
+	/*top:215px;
+	left: 833px;*/
+	top:50%;
+	left:50%;
+	margin-left:-123px;
+	margin-top:-4px;
     text-align: center;
     width: 257px;
     height: 46px;
